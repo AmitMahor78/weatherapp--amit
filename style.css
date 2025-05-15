@@ -1,0 +1,135 @@
+ body{
+            height: 100vh;
+            width: 100vw;
+        /* background-image: url(images.jpeg); */
+            background: url(i5.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: 5s spin  infinite;
+           
+
+        }
+        .image{
+             display: flex;
+            justify-content: center;
+        }
+        #inp
+        {
+           width: 300px;
+           height: 50px;
+           border-radius: 4%;
+          
+        }
+@keyframes spin{
+    0%{
+        background: url(i5.jpg);
+    background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: 5s spin  infinite;
+
+    }
+    20%{
+        background:url(I1.jpg) ;
+         background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: 5s spin  infinite;
+
+   
+    }
+    40%{
+        background:url(i2.avif) ;
+         background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: 5s spin  infinite;
+
+    }
+    60%{
+        background:url(i3.avif);
+         background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: 5s spin  infinite;
+
+    }
+    80%{
+        background: url(i4.jpg);
+         background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: 5s spin  infinite;
+
+    }
+    100%{
+
+        background: url(i5.jpg);
+         background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: 5s spin  infinite;
+
+   
+    }
+
+}
+.box {
+    height: 300px;
+    width: 600px;
+    border: 6px solid;
+    position: relative;
+    left: 50px; 
+    background-color: rgb(11, 173, 184);  
+    animation: 0.5s color linear infinite;
+    border-radius: 20px;
+
+}
+@keyframes color {
+
+    0%{
+        border-top-color: rgb(255, 0, 230);
+    }
+    25%{
+        border-right-color: rgb(255, 0, 230);
+    }
+    50%{
+        border-bottom-color: rgb(255, 0, 230);
+    }
+    100%{
+        border-left-color: rgb(255, 0, 230);
+    }
+    
+}
+.heading{
+    display:none;
+    color: aliceblue;
+}
+#h1{
+    
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:typing 10s infinite,
+    cursor .4s step-end infinite alternate;
+    
+}
+@keyframes cursor {
+    50%{
+        border-color: transparent;
+    }
+    
+}
+@keyframes typing{
+    from{
+       width:0;
+    }
+}
